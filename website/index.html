@@ -1,0 +1,116 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+ </head>
+
+<body>
+ <!-- Header Section -->
+ <header>
+    <h1>SEEDS MAGIC</h1>
+    <p>NOURISH YOUR HEALTH DAILY</p>
+  </header>
+
+  <!-- Navigation -->
+  <nav>
+    <a href="#product">Product Info</a>
+    <a href="#benefits">Benefits</a>
+    <a href="#cards">Ingredients</a>
+   
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <!-- Product Info Section -->
+   
+  <section class="section product-info container" id="product">
+
+    <img src="./IMAGES/WhatsApp Image 2024-11-13 at 3.34.19 AM.jpeg" class="img-fluid" alt="...">\
+    <img src="./IMAGES/WhatsApp Image 2024-11-13 at 3.34.20 AM.jpeg" class="img-fluid" alt="...">
+    <img WIDTH="1000"weight="1000"    src="./IMAGES/WhatsApp Image 2024-11-13 at 3.34.19 AM.jpeg" alt="Energy Booster Supplement">
+    <p>Our Energy Booster Supplement is crafted to give you sustained energy and improved focus throughout your day. With all-natural ingredients, it’s designed to boost your stamina and endurance without any crashes.</p>
+  </section>
+
+  <!-- Benefits Section -->
+  <section class="section benefits container" id="benefits">
+    <h2>Benefits</h2>
+    <div class="benefit">
+      <h3>Enhanced Energy</h3>
+      <p>Boosts your energy levels naturally to keep you active.</p>
+    </div>
+    <div class="benefit">
+      <h3>Mental Focus</h3>
+      <p>Helps you stay sharp and focused on tasks all day long.</p>
+    </div>
+    <div class="benefit">
+      <h3>Endurance Support</h3>
+      <p>Increases physical endurance for workouts and daily activities.</p>
+    </div>
+    <div class="benefit">
+      <h3>No Jitters</h3>
+      <p>Experience clean energy without the unwanted jitters or crashes.</p>
+    </div>
+  </section>
+
+
+
+  <!-- card section -->
+
+<div id="cards">
+  <div class="card" style="width: 18rem;">
+    <img WIDTH="330"height="100" src="./IMAGES/WhatsApp Image 2024-11-13 at 3.34.21 AM.jpeg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h1 class="heading1">Mental Focus<br> </h1><h4>(Nuts)</h4>
+      <p class="card-text">Helps you stay sharp and focused on tasks all day long.</p>
+    </div>
+  </div>
+
+  <div class="card" style="width: 18rem;">
+    <img WIDTH="275"height="600"  src="./IMAGES/WhatsApp Image 2024-11-13 at 3.34.23 AM.jpeg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h1 class="heading1">Enhanced Energy<br> </h1><h4>(Dry fruits)</h4>
+      <p class="card-text">Boosts your energy levels naturally to keep you active.</p>
+    </div>
+  </div>
+
+
+  <div class="card" style="width: 18rem;">
+    <img WIDTH="287"height="400"  src="./IMAGES/WhatsApp Image 2024-11-13 at 3.34.22 AM.jpeg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h1 class="heading1">Endurance Support <br></h1> <h4>(Seeds)</h4>
+      <p class="card-text">Increases physical endurance for workouts and daily activities.</p>
+    </div>
+  </div>
+
+  <div class="card" style="width: 18rem;">
+    <img WIDTH="287"height="800"  src="./IMAGES/WhatsApp Image 2024-11-13 at 3.34.22 AM (1).jpeg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h1 class="heading1">No Jitters <br></h1><h4>(Melon seeds)</h4>
+      <p class="card-text">Experience clean energy without the unwanted jitters or crashes.</p>
+    </div>
+  </div>
+</div>
+
+
+
+  <!-- Contact Section -->
+  <section class="section contact container" id="contact">
+    <h2>Contact Us</h2>
+    <p>If you have any questions, feel free to reach out to us using the form below:</p>
+    <form id="contactForm">
+      <input type="text" id="name" placeholder="Your Name" required>
+      <input type="email" id="email" placeholder="Your Email" required>
+      <textarea id="message" placeholder="Your Message" rows="4" required></textarea>
+      <button type="button" onclick="submitForm()">Submit</button>
+    </form>
+    <p id="successMessage" class="success-message" style="display: none;">Thank you for your message!</p>
+
+
+    <script src="app.js"></script>
+</body>
+  </section>
